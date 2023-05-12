@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form id="form-contacto">
+        <label for="input-name">Name:</label>
+        <input type="text" id="input-name" placeholder="Name" required>
+        <label for="input-lastname">Last name:</label>
+        <input type="text" id="input-lastname" placeholder="Last name" required>
+    </form>
+
+    <form  id="form-usuario">
+        <label>
+            Email:
+            <input type="email" placeholder="user@gmail.com" required> 
+        </label>
+        <label>
+            Password:
+            <input type="password" id="input-password" placeholder="Password" required>
+        </label>
+        <label> 
+            <input type="submit">
+        </label>
+        
+        <form id="from-pais">
+            <label>
+                <input type="checkbox" value="sarasa"> Vivís en un país?
+            </label>
+            <label>
+                <input type="radio"> Argentina
+            </label>
+        </form>
+    </form>
+
+
+    <form>
+        <p>What is your favorite programming language?</p>
+        <input type="radio" id="opcion1" name="language" value="Python">
+        <label for="opcion1">Python</label> <br>
+        <input type="radio" id="opcion2" name="language" value="Javascript">
+        <label for="opcion2">Javascript</label> <br>
+        <input type="radio" id="opcion3"name="language" value="Java">
+        <label for="opcion3">Java</label> <br>
+        <input type="radio" id="opcion4"name="language" value="csharp">
+        <label for="opcion4">C#</label><br>
+    </form>
+
+    <form>
+        <label>
+            Years
+            <input type="number" min="0" max="99" step="5"> 
+        </label>
+    </form>
+
+    <form id="form-list">
+        <label>
+            Select your favorite fruit
+            <select name="fruit">
+                <option disabled selected>select</option>
+                <option value="apple">Apple</option>
+                <option value="apple">strawberry</option>
+            </select>
+        </label>
+    
+    </form>
+
+    <form>
+        <label for="comments">
+            Comments
+        </label>
+        <textarea id="Comments" placeholder="type here"></textarea>
+    </form>
+</body>
+
+</html> 
